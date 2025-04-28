@@ -4,7 +4,7 @@ function getInitials(name, surname){
   return nameInitial+surnameInitial
 }
 
-test('La funzione "getInitials" restituisce le iniziali del nome e del cognome di una persona', ()=>{
+test('La funzione getInitials restituisce le iniziali di un nome completo.', ()=>{
   const inizialiNomeCompleto = getInitials('Stefano','Spedicato')
   expect(inizialiNomeCompleto).toBe('SS')
 })
